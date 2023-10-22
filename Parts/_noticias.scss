@@ -1,0 +1,167 @@
+
+//------------------------------------------------ NOTICIAS
+
+
+#noticias{
+    margin: 0 auto;
+    background-color: $white;
+}
+
+.ntc-main-div{
+    //display: flex;
+    max-width: 1920px;
+    margin: 300px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ntc-main-div h2{
+    margin-bottom: 100px;
+    color: $lightblue;
+}
+
+.ntc-card-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ntc-card{
+    width: 470px;
+    height: 670px;
+    //border: 1px solid red;
+    border-radius: 24px;
+    background-color: white;
+    margin-bottom: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.ntc-card p{
+    //color: $black; // borrar
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ntc-card img{
+    width: 100%;
+    height: 43%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    object-fit: cover;
+
+}
+
+.ntc-card-name{
+    color: $lightblue;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ntc-card-title{
+    color: $black;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.ntc-card-desc{
+    color: $black;
+    filter: opacity(50%);
+    font-size: 16px;
+    margin-bottom: 34px;
+    line-height: 25px;
+}
+
+.ntc-card-date{
+    color: $black;
+    filter: opacity(50%);
+    font-size: 14px;
+}
+
+// ==================================== MEDIA
+
+@media (max-width: 1200px){
+
+    .ntc-main-div{
+        //display: flex;
+        max-width: 1920px;
+        margin: 100px 25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ntc-main-div h2{
+        margin-bottom: 40px;
+    }
+
+    .ntc-card{
+        display: none;
+
+
+    }
+
+    #ntc-card-show-mobile{
+        display: block;
+    }
+
+    .ntc-card{
+        width: 470px;
+        height: 100%;
+        //border: 1px solid red;
+        border-radius: 24px;
+        background-color: white;
+        margin-bottom: 0px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    }
+    
+    .ntc-card p{
+        //color: $black; // borrar
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .ntc-card img{
+        width: 100%;
+        height: 25%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        object-fit: cover;
+    
+    }
+    
+    .ntc-card-name{
+        color: $lightblue;
+        margin-top: 25px;
+        margin-bottom: 18px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .ntc-card-title{
+        color: $black;
+        margin-bottom: 14px;
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    .ntc-card-desc{
+        color: $black;
+        filter: opacity(50%);
+        font-size: 16px;
+        margin-bottom: 34px;
+        line-height: 25px;
+    }
+    
+    .ntc-card-date{
+        color: $black;
+        filter: opacity(50%);
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+
+
+}

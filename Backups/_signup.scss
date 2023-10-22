@@ -1,0 +1,126 @@
+.signup-logo-container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+.signup-logo-img{
+    width: 10%;
+}
+
+
+.signup-left-container{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin: auto;
+    width: 50%;  
+    align-items: center;
+}
+
+.signup-form-container{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin: auto;
+    width: 50%; 
+    align-items: left;
+
+    // border: blue 1px solid;
+}
+
+.signup-logo{
+    font-weight:400;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 20px;
+    text-align: center;
+    display:flex;
+    color: $darkblue;
+}
+
+.signup-form-container p,
+.signup-form-container h2,
+.signup-form-container a{
+    color: $darkblue;
+}
+
+.signup-form-container button{
+    border-color: $darkblue;
+    padding: 0.6em 0em;
+}
+
+.signup-form-container h2{
+    font-size:44px;
+    font-weight: 500;
+}
+
+.signup-form-container p{
+    font-size: 20px;
+}
+
+.signup-form-container input{
+    margin: 1em 0;
+    text-decoration: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.092);
+    padding-bottom: 0.5em;
+    width: 25em;
+    color: $darkblue;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+.signup-form-container button{
+    width: 25em;
+}
+
+.signup-form-container form{
+    margin: 2em 0;
+}
+
+.signup-btn-continue{
+    color: white;
+    background-color:#5348C1;
+    border: none;
+    margin-bottom: 0em;
+}
+
+.signup-btn-google{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $darkblue;
+    filter: opacity(80%);
+}
+
+.signup-btn-google img{
+    width: 22px;
+    margin-right: 0.5em;
+    filter: opacity(80%);
+
+}
+
+.signup-btn-apple{
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $darkblue;
+    filter: opacity(80%);
+}
+
+.signup-btn-apple img{
+    width: 22px;
+    margin-right: 0.5em;
+}
+
+.signup-form-container form{
+    display: flex;
+    flex-direction: column;
+}

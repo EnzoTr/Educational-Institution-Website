@@ -1,0 +1,99 @@
+
+//------------------------------------------------------ COMENTARIOS
+
+#comm-card{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: $white;
+}
+
+.cm-card-div{
+    display: flex;
+    margin: 150px 200px;
+    //border: 1px solid red;
+    flex-direction: row;
+}
+
+.cm-card-container{
+    //border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+.cm-card-user{
+    background-color: rgba(27, 27, 27, 0.053);
+    border-radius: 24px;
+    padding: 18px 24px;
+    margin: 12px 12px;
+}
+
+.cm-card-user-mobile{
+    background-color: rgba(27, 27, 27, 0.053);
+    border-radius: 24px;
+    padding: 18px 24px;
+    margin: 12px 12px;
+    display: none;
+}
+
+.cm-comment{
+    margin-bottom: 34px;
+}
+
+.cm-card-title{
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.cm-card-title h2{
+    margin-bottom: 40px;
+}
+
+.cm-card-title button{
+    background-color: $lightblue;
+    width: 100%;
+    padding: 15px 0px;
+
+}
+
+.cm-card-div p{
+    color: rgba(19, 19, 19, 0.762);
+}
+
+.cm-card-div h2{
+    color: $black;
+}
+
+
+// ==================================== MEDIA
+
+@media (max-width: 1200px){
+
+    .cm-card-div{
+        margin: 20px auto;
+ 
+    }
+
+    .cm-card-container{
+        display: none;
+    }
+
+    #cm-card-container-mobile{
+        display: block;
+    }
+
+    .cm-card-title button{
+        background-color: $lightblue;
+        width: 80%;
+        padding: 10px 0px;
+        font-size: 14px;
+    
+    }
+
+    .cm-card-user-mobile{
+        display: block;
+    }
+
+}

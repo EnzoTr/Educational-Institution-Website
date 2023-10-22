@@ -1,0 +1,21 @@
+@keyframes fadeinout{
+    from{
+        opacity: 0;
+        // transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        // transform: rotateX(0);
+    }
+}
+
+@keyframes fadeoutin{
+    from{
+        opacity: 1;
+        // transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 0;
+        // transform: rotateX(0);
+    }
+}
